@@ -1,12 +1,12 @@
 {
-  "version": "0.1.48",
+  "version": "0.1.49",
   "description": "GPU-accelerated terminal workspace for supervising concurrent development sessions",
   "homepage": "https://github.com/Phoenixmatrix/muxtrix",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Phoenixmatrix/muxtrix/releases/download/v0.1.48/muxtrix-0.1.48-x64.zip",
-      "hash": "c15e7976f75de31ffdc8d3c7a9ed11d639cdd85544d20fb3644a33284fcbaf36"
+      "url": "https://github.com/Phoenixmatrix/muxtrix/releases/download/v0.1.49/muxtrix-0.1.49-x64.zip",
+      "hash": "1e9a525f741c56d4ff4876aa76bbeecaa6f6787a09148efdec62220ea515414e"
     }
   },
   "shortcuts": [
