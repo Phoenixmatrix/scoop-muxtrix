@@ -1,39 +1,19 @@
-# Private Muxtrix Scoop bucket
+# Muxtrix Scoop bucket
 
-This repository and the Muxtrix application repository are private. Installation
-requires a GitHub account with read access to both
-`Phoenixmatrix/scoop-muxtrix` and `Phoenixmatrix/muxtrix`.
+Public Scoop bucket for [Muxtrix](https://github.com/Phoenixmatrix/muxtrix).
 
-## One-time setup
+## Install
 
-Install Scoop first, then configure Git and add this bucket over SSH:
+Install Scoop, then add the bucket and install Muxtrix:
 
 ```powershell
-scoop install git
-scoop bucket add muxtrix git@github.com:Phoenixmatrix/scoop-muxtrix.git
-```
-
-Private GitHub Release downloads require an individual fine-grained GitHub
-token. The token must belong to the person installing Muxtrix, be restricted to
-`Phoenixmatrix/muxtrix`, grant read-only repository Contents access, and have an
-expiration date. Never commit, share, or add the token to a manifest.
-
-Store it in Scoop's user configuration:
-
-```powershell
-scoop config gh_token THEIR_INDIVIDUAL_TOKEN
-```
-
-Alternatively, set it only for the current PowerShell process:
-
-```powershell
-$env:SCOOP_GH_TOKEN = "THEIR_INDIVIDUAL_TOKEN"
-```
-
-## Install, update, and uninstall
-
-```powershell
+scoop bucket add muxtrix https://github.com/Phoenixmatrix/scoop-muxtrix
 scoop install muxtrix/muxtrix
+```
+
+## Update or uninstall
+
+```powershell
 scoop update
 scoop update muxtrix
 scoop uninstall muxtrix
